@@ -1,7 +1,7 @@
 ## 100. Same Tree
 - 題目:判斷兩顆 binary tree 是否相同。
 - Example
-    - ![image](BinaryTree/Image/100_Exmaple.png)
+    - ![image](https://github.com/bebe6990103/LeetCode/blob/main/BinaryTree/Image/100_Exmaple.png)
 - 思路
     - 遞迴比較左子樹與右子樹。
 ```
