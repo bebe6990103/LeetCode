@@ -1,7 +1,7 @@
 ## 700. Search in a Binary Search Tree
 - 題目:在BTS中找尋一個樹是否存在，若是則回傳該NODE，若否則回傳 NULL。
 - Example
-    - ![image](https://hackmd.io/_uploads/SJjk_BmKkg.png)
+    - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/700_Example.png)
 - 思路
     - 利用 BTS 左小右大的特性去做遞迴尋訪。
 ```
