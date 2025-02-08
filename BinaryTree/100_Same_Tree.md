@@ -4,7 +4,7 @@
     - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/100_Exmaple.png)
 - 思路
     - 遞迴比較左子樹與右子樹。
-```
+```cpp
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
