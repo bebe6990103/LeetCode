@@ -4,7 +4,7 @@
     - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/98_Example.png)
 - 思路
     - 透過在函式中增加 max 和 min 兩個節點，以在遞迴檢查過程中確認是否有超出邊界的狀況。
-```
+```cpp
 class Solution {
 public:
     bool check (TreeNode* root, TreeNode* maxNode, TreeNode* minNode){
