@@ -17,7 +17,7 @@
 - 時間複雜度: O(n²)
 - 最壞情況
     - 當 nums 中的值全是 1（如 [1, 1, 1, 1, ..., 1]），每次只能往前跳一步，內層迴圈會遍歷接下來的每個元素。
-```
+```cpp
 #include <vector>
 #include <algorithm>  // For std::fill
 
@@ -55,7 +55,7 @@ public:
     - 透過一 maxReach 值標註目前最遠可到達的格子，若目前 maxReach<i 即 return false，若非則更新 maxReach，當maxReach >= nums.size() - 1 代表能夠越過最後一格。
 - 時間複雜度：O(n)
 
-```
+```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
