@@ -9,7 +9,7 @@
         - [null, null, null, 1, null, -1, 3, null, -1, 3, 4]
 - 思路
     - 透過三個mapping表處理 keyToValue, keyToFreq, freqToKey。 針對 get function，若該key值存在則回傳對應value並freq+1，不存在則回傳"-1"。針對 put function 若 key 值存在則修該 key 對應的value，並增加該key對應的freq; 若key值不存在則插入(key, val)並將key對應的freq設為"1"，如果插入前發現容量已滿則先淘汰freq最小的key。
-```
+```cpp
 class LFUCache {
 public:
     int capacity;  // 緩存容量
