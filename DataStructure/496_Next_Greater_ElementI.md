@@ -7,7 +7,7 @@
     - Output2: [3,-1]
 - 思路
     - 用 單調stack 去紀錄，逐個比較nums2與stack_top，若將stack_top小於 nums[i]，及代表找到下一個Greater element了，就將兩者進行mapping，接著再把nums2丟入stack_top。
-```
+```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
