@@ -8,7 +8,7 @@
     - 先將區間集合(vector)依照結束的時間點進行排序，接著每次都看最早結束的區間為何，接著找下一個區間，藉此就能得到最多有幾個區間不相交。隨之用 總區間數 - 有幾個區間不相交，即可得到需移除多少個區間。
     - 運用貪婪演算法，儘量選擇最早結束的區間，以保留更多不重疊的區間。
 
-```
+```cpp
 class Solution {
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
