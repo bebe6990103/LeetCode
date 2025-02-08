@@ -5,7 +5,7 @@
     - Output: [1,1,4,2,1,1,0,0]
 - 思路
     - 透過 stack 存入引索(即為第幾天)，若發現該天溫度大於 stack.top 的當天溫度，就將兩者引索相減，就能取得回暖所的天數，接著將計算後的引索 stack.pop 掉。
-```
+```cpp
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
