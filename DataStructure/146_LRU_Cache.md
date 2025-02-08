@@ -9,7 +9,7 @@
         - [null, null, null, 1, null, -1, null, -1, 3, 4]
 - 思路
     - 透過一個雙向鏈結，cacheList拿來記錄順序，在前面的PAIR較新。
-```
+```cpp
 class LRUCache {
 public:
     int capacity;  // LRU Cache 容量
