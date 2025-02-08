@@ -8,7 +8,7 @@
     - 先按照 開始時間 排序，若 開始時間 相同則按照 結束時間 排序
         - 若下個開始點大於連續區間的結束點則無法射破，即Arrow+1，每次比較結束點，以較短的結束點作為連續區間的結束點。
     - 選擇當前最早結束的氣球 (end = min(end, this_end)) 作為射箭範圍，確保能夠射穿最多的氣球
-```
+```cpp
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& points) {
