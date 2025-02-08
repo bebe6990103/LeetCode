@@ -3,7 +3,7 @@
     - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/450_Example.png)
 - 思路
     - 在查詢BST的架構下增加"刪除"的功能，情況一: 若KEY Node為末端節點，則直接刪除即可。情況二: KEY Node 有一側右 or 左子樹，則直接使該子樹直接繼承。情況三: 若KEY Node左右皆有子樹，則選擇右子樹中最左側(最小值)的節點取代KEY Node，就不會破壞BST的架構。
-```
+```cpp
 class Solution {
 public:
     TreeNode* GetMin(TreeNode* theNode) {
