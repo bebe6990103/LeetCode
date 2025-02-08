@@ -4,7 +4,7 @@
     - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/701_Example.png)
 - 思路
     - 利用 BTS 左小右大的特性去做遞迴尋訪，當發現子樹為"NULL"則創建一個新的Node並賦值"Value"。
-```
+```cpp
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
