@@ -10,7 +10,7 @@
     - Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 - 思路
-    - 在回圈中，透過further一值紀錄當前可達最遠位置，同時比較further和原地起跳(nums[i])哪種較遠去更新 further，再藉由maxReach去精確計算步數，避免ex: [1,2,1,1,2]這種會重複計算步數的情況發生
+    - 在迴圈中，透過further一值紀錄當前可達最遠位置，同時比較further和原地起跳(nums[i])哪種較遠去更新 further，再藉由maxReach去精確計算步數，避免ex: [1,2,1,1,2]這種會重複計算步數的情況發生
 - 時間複雜度：O(n)
 - 空間複雜度：O(1)
 
