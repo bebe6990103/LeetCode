@@ -4,8 +4,8 @@
     - Input: nums = [3,9,3]
     - Output: 2
 - 思路
-    -　從數列後面往前推，維護一個值min，確保前面的值沒有超過min，若遇到element比min大，則計算需要對其做幾次切割動作，並更新min。
-    -　Greedy策略: 只對min值做檢查，即能達到非遞減序列的需求
+    - 從數列後面往前推，維護一個值min，確保前面的值沒有超過min，若遇到element比min大，則計算需要對其做幾次切割動作，並更新min。
+    - Greedy策略: 只對min值做檢查，即能達到非遞減序列的需求
 ```cpp
 class Solution {
 public:
