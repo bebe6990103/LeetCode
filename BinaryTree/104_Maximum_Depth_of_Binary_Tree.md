@@ -2,7 +2,7 @@
 - Easy
 - 題目: 計算二元樹的最大深度
 - Example
-    - ![104_Example](https://hackmd.io/_uploads/BJNpjWr91x.jpg)
+    - ![104_Example](https://github.com/bebe6990103/LeetCode/blob/main/Image/104_Example.png)
     - Input: root = [3,9,20,null,null,15,7]
     - Output: 3
 - 思路
