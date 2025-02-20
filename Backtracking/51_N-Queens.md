@@ -4,7 +4,7 @@
 - Example
     - Input: n = 4
     - Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
-    - ![51_Example](https://hackmd.io/_uploads/ryyxSTEqkx.jpg)
+    - ![51_Example](https://github.com/bebe6990103/LeetCode/blob/main/Image/51_Example.png)
 - 思路
     - 先初始化棋盤，接著以每行column開始檢查，再以列row檢查，若無可能之解則透過 board[row][col] = '.' 將走過的路徑進行回溯，只要找到一個解即return，後面的遞迴會被取消。
 ```cpp
