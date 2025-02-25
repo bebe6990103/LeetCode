@@ -4,6 +4,8 @@
 - Example
     - Input: head = [3,2,0,-4], pos = 1
     - Output: tail connects to node index 1
+- 思路
+    - 先透過快,慢指標找到起始位置，找到起始位置後將一指標指到 head，接著兩個指標每次各走一步，當它們相遇時，就是環的起始點。(數學邏輯)。
 ```cpp
 class Solution {
 public:
