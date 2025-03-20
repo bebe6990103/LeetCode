@@ -4,7 +4,7 @@
 - Example
     - Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
     - Output: [3,9,20,null,null,15,7]
-    - https://github.com/bebe6990103/LeetCode/blob/main/Image/105_Example.png
+    - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/105_Example.png)
 - 思路
     - 透過D&C，以遞迴來構造 binary tree 的左右子樹
     - 先透過 unordered_map 紀錄 inorder的索引位置，根據前序遍歷的特性，初始將為root節點，去尋找root節點於 inorder中的索引位置，接著因中序排列的特性，root左側為左子樹，root右側為右子樹，建構出左右子樹
