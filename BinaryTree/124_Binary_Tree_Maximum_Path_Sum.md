@@ -4,7 +4,7 @@
 - Example
     - Input: root = [-10,9,20,null,null,15,7]
     - Output: 42
-    - ![image](https://hackmd.io/_uploads/rys3i6vAkl.png)
+    - ![image](https://github.com/bebe6990103/LeetCode/blob/main/Image/124_Example.jpg)
 - 思路
     - 從頂點開始一直向下遞迴計算，並每次紀錄該路徑的總和值，若小於0則選擇拋棄該側子樹。
 
