@@ -4,7 +4,7 @@
 - 題目: 題目: 一共 numCourses 門課要修，課程編號從 0 到 numCourses - 1。每門課有可能會有「先修課」的限制，這些限制會用一個陣列 prerequisites [a, b] 呈現，即要先修完課程 b，才能去修課程 a。請回傳一個可行的「修課順序」陣列，若無法修完全部課程則回傳空陣列。
 - Example
     - Input: numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]
-    - Output: [0,2,1,3
+    - Output: [0,2,1,3]
 - 思路
     - 先透過vector adj，畫出修課關係之間的圖，並透過vector in_degree紀錄各課程的先修課程數量，接著用queue搭配BFS演算法下去做排查以規劃修課順序，最後檢查修課順序是否等於總課程數即可知道圖是否環。
 
