@@ -1,7 +1,7 @@
 ## 895. Maximum Frequency Stack
 
 - Hard
-- 題目: 設計一個特殊的 Stack，除了 push(val) 以外，pop() 時要根據「元素出現的頻率」來決定要移除哪個元素。
+- 題目: 設計一個特殊的 Stack，除了 push(val) 以外，pop() 時要根據「元素出現的頻率」來決定要移除哪個元素，若有多個頻率一樣，則回傳「最接近 stack 頂端的那個元素」。
 
 - Example
     - Input: ["FreqStack", "push", "push", "push", "push", "push", "push", "pop", "pop", "pop", "pop"] [[], [5], [7], [5], [7], [4], [5], [], [], [], []]
